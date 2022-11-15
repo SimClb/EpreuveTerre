@@ -2,8 +2,7 @@
 import sys
 
 
-n = int(sys.argv[1]) # = $1 from scriptshell
-arguments = #all of arguments
+arguments = [sys.argv]
 for argument in arguments: 
     print(argument, '\n')
-    
+
