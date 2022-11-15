@@ -10,3 +10,4 @@ for letter in letters:
 
 print(lettersStr)
 
+#finished 
