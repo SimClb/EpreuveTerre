@@ -1,15 +1,7 @@
-class classname:
-    def createname(self, name):
-        self.name = name
+import sys
+#string = "aa"
+#
+#print(sys.argv)
 
-    def displayname(self):
-        return self.name
-
-    def saying(self):
-        print("Hello %s" % self.name)
-
-
-first = classname
-second = classname
-
-first.createname("Bobby", "test")
+test = sys.argv[1].isnumeric()
+print(len(sys.argv[1]))
