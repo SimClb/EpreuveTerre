@@ -3,4 +3,10 @@ import sys
 #
 #print(sys.argv)
 
-print(int(2/7))
+list = sys.argv
+newList = ""
+for n in list[1:]:
+    print(n)
+    newList += (n + " ")
+
+print(newList)
