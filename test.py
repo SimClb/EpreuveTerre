@@ -3,4 +3,4 @@ import sys
 #
 #print(sys.argv)
 
-print(2 % 2)
+print(int(2/7))
