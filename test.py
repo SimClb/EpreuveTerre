@@ -3,5 +3,4 @@ import sys
 #
 #print(sys.argv)
 
-test = sys.argv[1].isnumeric()
-print(len(sys.argv[1]))
+print(2 % 2)
