@@ -13,7 +13,6 @@ newList = ""
 
 #add to a var 
 for n in list[1:]:
-    print(n)
     newList += (n + " ")
 
 #replace wrong chars 
@@ -23,8 +22,9 @@ for wrongChar in newList:
 
 #create new var reversed with var from our list into
 strReverse = newList[::-1]
-#replace the first space 
 
-#use regex to remove the first whitespace
+# use regex to remove the first whitespace
+result = re.sub(r'^\s', '', strReverse)
+print(result)
 
-
+#finished 
