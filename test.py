@@ -3,10 +3,8 @@ import sys
 #
 #print(sys.argv)
 
-list = sys.argv
-newList = ""
-for n in list[1:]:
-    print(n)
-    newList += (n + " ")
+import re
 
-print(newList)
+string = " test ma gueule"
+result = re.sub(r'^\s', '', string)
+print(result)
