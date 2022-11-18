@@ -6,7 +6,7 @@ print("############################################ \n"
      "############################################ \n")
 
 if len(sys.argv) > 2 or len(sys.argv) <= 1:
-    print("Mets deux chiffres")
+    print("Mets un chiffre")
     exit()
 
 isNumber = sys.argv[1].isnumeric()
