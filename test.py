@@ -3,13 +3,19 @@ import sys
 #
 #print(sys.argv)
 
-list = [34, 28, 32]
+import hashTableTime
 
-number = list.index(max(list)) + list.index(min(list))
+# function to return key for any value
 
-if number == 3:
-    print(list[0])
-elif number == 2:
-    print(list[1])
-elif number == 1:
-    print(list[2])
+#val = parametre of function 
+# creation of variable key and value 
+
+def get_key(val):
+    for key, value in hashTableTime.changeHour.items():
+        if val == value:
+            return key
+
+    return "key doesn't exist"
+
+print(get_key("3"))
+
