@@ -10,3 +10,5 @@ Je check s'il y a un nombre entre 1 et 12 dans les deux premiers chars de l'argu
 	si oui check s'il y a un AM ou PM au deux derniers chars 
 	
 		Si oui aller dans list 
+
+
