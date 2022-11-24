@@ -27,4 +27,6 @@ strReverse = newList[::-1]
 result = re.sub(r'^\s', '', strReverse)
 print(result)
 
+
+#try with a reverse loop ==> not n+1 but n-1
 #finished 
